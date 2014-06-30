@@ -1,0 +1,95 @@
+	#WebNav{
+		position: fixed;
+		top: 0; 
+		left: 0; 
+		z-index: 999; 
+		width: 100%;
+		background-color:  black;
+	}
+
+	#WebNav ul li a{
+		text-align: right;
+		color: blue;
+		text-decoration: none;
+	}
+
+	#WebNav ul li {
+		display: inline-block;
+	}
+
+	#WebNav ul{
+		width: 900px;
+		margin: 0;
+		margin-left: auto;
+		margin-right: auto;
+		overflow: hidden;
+		z-index: 10;
+	}
+
+	#WebNav ul li img{
+		display: inline-block;
+	}
+
+	.img{
+		max-width: 100px;
+		max-height: 100px;
+		width: auto;
+		height: auto;
+
+	}
+
+	#ImageScroller{
+		margin-top: 10px;
+		border: 10px;
+		text-align: center;
+		background-color: #333333;
+	}
+
+	#ImageScroller ul li{
+		display: inline-block;
+		margin-right: 50px;
+		border: 10px;
+	}
+
+	#Wrapper{
+		text-align: center;
+		background-color: gray;
+	}
+
+	#FeatureVid{
+		background-color: black;
+		border-color: blue;
+		color: blue;
+	}
+
+	#WrapperContent ul li{
+		display: inline-block;
+	}
+
+	#CurrentProject{
+		margin-right: 100px;
+		margin-left: 100px;
+		display: inline-block;
+		background-color: black;
+		color: blue;
+	}
+
+	#NewsFeed{
+		margin-right: 100px;
+		margin-left: 100px;
+		display: inline-block;
+		background-color: black;
+		color: blue;
+	}
+
+	#FooterBack{
+		background-color: gray;
+	}
+
+	#FooterBack ul li{
+		display: inline-block;
+		text-align: center;
+		vertical-align: middle;
+		margin-right: 100px;
+		margin-left: 100px
+	}
