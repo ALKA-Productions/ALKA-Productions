@@ -5,6 +5,8 @@
 <head>
 	<h1>ALKA Productions</h1>
 	<link rel = "stylesheet" type = "text/css" href="Resources\MyStyleSheet.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src = "Resources/MyJS.js"></script>
 	<title>ALKA Productions - Home</title>
 </head>
 
@@ -19,39 +21,46 @@
 		</ul>
 	</div>
 
-	<div id = "ImageScroller">
-		<p>&nbsp;</p>
-		<img src = "Resources/Capture.PNG">
-		<ul>
-			<li><img src = "Resources/Capture2.PNG"></li>
-			<li><img src = "Resources/Capture2.PNG"></li>
-			<li><img src = "Resources/Capture2.PNG"></li>
-		</ul>
+	<div id = "ImageScrollerBackground">
+		&nbsp;
+		<div id = "ImageScroller">
+			<img src = "Resources/Capture.PNG" id = "Image1">
+			<img src = "Resources/Test.PNG" id = "Image2">
+			<ul>
+				<li><img src = "Resources/Capture2.PNG" id = "th1"></li>
+				<li><img src = "Resources/Capture2.PNG" id = "th2"></li>
+				<li><img src = "Resources/Capture2.PNG" id = "th3"></li>
+			</ul>
+		</div>
+		&nbsp;
 	</div>
 
-	<div id = "Wrapper">
-		<div id = "FeatureVid">
-
-			<h2>Featured Video</h2>
-			<iframe width="560" height="315" src="http://www.youtube.com/embed/dk8gpz0o5TU" frameborder="0" allowfullscreen></iframe>
-			<p>Info?</p>
-
+	<div id = "WrapperBackground">
+		<div id = "Wrapper">
+			<p>&nbsp;</p>
+			<div id = "FeatureVid">
+	
+				<h2>Featured Video</h2>
+				<iframe width="560" height="315" src="http://www.youtube.com/embed/dk8gpz0o5TU" frameborder="0" allowfullscreen></iframe>
+				<p>Info?</p>
+	
+			</div>
+	
+			<ul>
+				<div id = "CurrentProject">
+	
+				<li>Current Project</li>
+	
+				</div>
+	
+				<div id = "NewsFeed">
+	
+				<li>News Feed</li>
+	
+				</div>
+	
+			</ul>
 		</div>
-
-		<ul>
-			<div id = "CurrentProject">
-
-			<li>Current Project</li>
-
-			</div>
-
-			<div id = "NewsFeed">
-
-			<li>News Feed</li>
-
-			</div>
-
-		</ul>
 	</div>
 
 	<div id = "FooterBack">
