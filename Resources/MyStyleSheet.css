@@ -121,7 +121,7 @@
 		display: inline-block;
 	}
 
-	#Content li{
+	#Content ul li{
 		margin-bottom: 20px;
 		margin-top: 50px;
 		display: inline-block;
@@ -130,10 +130,21 @@
 		width: 350px;
 		height: 250px;
 		box-shadow: 0px 5px 10px rgba(0,0,0,0.7);
+		vertical-align: top;
 	}
 
-	#Content{
+	#Content img{
+		width: 250px;
+		height: auto;
+		margin-top: 20px;
+	}
+
+	#Content ul{
 		padding-left: 0px;
+	}
+
+	#Content ul li p{
+		color: gray;
 	}
 
 	#NewsFeed li{
@@ -147,7 +158,8 @@
 	}
 
 	#FooterBack{
-		background-color: gray;
+		background-image: url("BlackPatternBack.PNG");
+		padding: 10px;
 	}
 
 	#FooterBack ul{
