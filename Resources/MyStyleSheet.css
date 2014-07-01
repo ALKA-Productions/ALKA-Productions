@@ -5,7 +5,7 @@
 		z-index: 999; 
 		width: 100%;
 		background-color:  black;
-		box-shadow: 0px 5px 10px rgba(87,87,87,0.5);
+		border-bottom: 2px white solid;
 	}
 
 	#WebNav ul li a{
@@ -17,7 +17,7 @@
 	#WebNav ul li {
 		display: inline-block;
 		vertical-align: middle;
-		margin-right: 50px;
+		margin-right: 20px;
 		margin-left: 50px;
 	}
 
@@ -36,8 +36,7 @@
 	}
 
 	.img{
-		max-width: 125px;
-		max-height: 125px;
+		max-width: 230px;
 		width: auto;
 		height: auto;
 
@@ -51,6 +50,8 @@
 		border: 10px;
 		margin-right: auto;
 		margin-left: auto;
+		margin-bottom: 25px;
+		margin-top: 85px;
 	}
 
 	#ImageScroller ul{
@@ -83,7 +84,6 @@
 	#ImageScroller>img{
 		position: absolute;
 		z-index: 100;
-		box-shadow: 0px 5px 10px rgba(56, 56, 56, 0.5);
 		width: 778;
 		height: 327;
 	}
@@ -97,14 +97,13 @@
 	}
 
 	#ImageScrollerBackground{
-		background-color: #333333;
-		box-shadow: 0px 5px 10px rgba(0,0,0,0.7);	
+		background-color: black;			
 	}
 
 	#Wrapper{
 		text-align: center;
 		background-color: #333333;
-		width: 900px;
+		width: 780;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -128,7 +127,7 @@
 		display: inline-block;
 		background-color: black;
 		color: blue;
-		width: 300px;
+		width: 350px;
 		height: 250px;
 		box-shadow: 0px 5px 10px rgba(0,0,0,0.7);
 	}
@@ -164,7 +163,7 @@
 	}
 
 	.cPClass{
-		
+
 	}
 
 	body{

@@ -1,18 +1,8 @@
 $(document).ready(function(){
 
-
-	$("#th1").click(function(){
-		showImg($("#Image1"));
-		
-	});
-
-	$("#th2").click(function(){
-		showImg($("#Image2"));
-	});
-
-	$("#th3").click(function(){
-		showImg($("#Image3"));
-	});
+	$("#ImageScroller ul li img").click(function(){
+		showImg($($(this).attr("target")));
+		})
 
 	slideShow();
 
@@ -33,16 +23,12 @@ function showImg(elem)
 
 function slideShow(){
 
-	var I1 = true;
-	var I2 = false;
-	var I3 = false;
-
-
 	setInterval(function(){
+		if()
 		if ($("#ImageScroller>img.current").next("#ImageScroller>img").length == 0) {
-			showImg($("#ImageScroller>img:nth-child(1)"));
+			showImg($("#ImageScroller>img.current:nth-child(1)"));
 			return;	
 		}
-		showImg($("#ImageScroller>img.current").next("#ImageScroller>img"));
-	}, 5000);
+			showImg($("#ImageScroller>img.current").next("#ImageScroller>img"));
+		}, 5000);
 }
