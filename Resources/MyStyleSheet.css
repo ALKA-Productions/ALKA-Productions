@@ -132,6 +132,10 @@
 		box-shadow: 0px 5px 10px rgba(0,0,0,0.7);
 	}
 
+	#Content{
+		padding-left: 0px;
+	}
+
 	#NewsFeed li{
 		margin-right: 100px;
 		margin-left: 100px;
