@@ -23,10 +23,11 @@ function showImg(elem)
 
 function slideShow(){
 
+
 	setInterval(function(){
-		if()
 		if ($("#ImageScroller>img.current").next("#ImageScroller>img").length == 0) {
-			showImg($("#ImageScroller>img.current:nth-child(1)"));
+			console.log("lol")
+			showImg($("#ImageScroller>img:nth-child(1)"));
 			return;	
 		}
 			showImg($("#ImageScroller>img.current").next("#ImageScroller>img"));
