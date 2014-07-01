@@ -5,6 +5,7 @@
 		z-index: 999; 
 		width: 100%;
 		background-color:  black;
+		box-shadow: 0px 5px 10px rgba(87,87,87,0.5);
 	}
 
 	#WebNav ul li a{
@@ -16,6 +17,8 @@
 	#WebNav ul li {
 		display: inline-block;
 		vertical-align: middle;
+		margin-right: 50px;
+		margin-left: 50px;
 	}
 
 	#WebNav ul{
@@ -25,6 +28,7 @@
 		margin-right: auto;
 		overflow: hidden;
 		z-index: 10;
+		font-size: 30;
 	}
 
 	#WebNav ul li img{
@@ -32,8 +36,8 @@
 	}
 
 	.img{
-		max-width: 100px;
-		max-height: 100px;
+		max-width: 125px;
+		max-height: 125px;
 		width: auto;
 		height: auto;
 
@@ -62,8 +66,14 @@
 		display: inline-block;
 		margin-right: 50px;
 		box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
-		opacity: 0.5;
+		opacity: 0.7;
 		transition: opacity 0.3s ease-in;
+	}
+
+	#ImageScroller ul li img{
+		border-style: solid;
+		border-color: white;
+		border-width: 1px;
 	}
 
 	#ImageScroller ul li:hover{
@@ -73,10 +83,22 @@
 	#ImageScroller>img{
 		position: absolute;
 		z-index: 100;
+		box-shadow: 0px 5px 10px rgba(56, 56, 56, 0.5);
+		width: 778;
+		height: 327;
+	}
+
+	#ImageScroller>img.current{
+		z-index: 900;
+	}
+
+	#ImageScroller>img.previous{
+		z-index: 500;
 	}
 
 	#ImageScrollerBackground{
-		background-color: black;	
+		background-color: #333333;
+		box-shadow: 0px 5px 10px rgba(0,0,0,0.7);	
 	}
 
 	#Wrapper{
@@ -93,42 +115,56 @@
 		border-color: blue;
 		color: blue;
 		margin-bottom: 10px;
+		box-shadow: 0px 5px 10px rgba(0,0,0,0.7);
 	}
 
 	#WrapperContent ul li{
 		display: inline-block;
 	}
 
-	#CurrentProject{
-		margin-right: 100px;
-		margin-left: 100px;
+	#Content li{
+		margin-bottom: 20px;
+		margin-top: 50px;
 		display: inline-block;
 		background-color: black;
 		color: blue;
+		width: 300px;
+		height: 250px;
+		box-shadow: 0px 5px 10px rgba(0,0,0,0.7);
 	}
 
-	#NewsFeed{
+	#NewsFeed li{
 		margin-right: 100px;
 		margin-left: 100px;
 		display: inline-block;
 		background-color: black;
 		color: blue;
+		width: 250px;
+		height: 250px;
 	}
 
 	#FooterBack{
 		background-color: gray;
 	}
 
-	#FooterBack ul li{
-		display: inline-block;
+	#FooterBack ul{
 		text-align: center;
 		vertical-align: middle;
+	}
+
+	#FooterBack ul li{
+		display: inline-block;
 		margin-right: 100px;
 		margin-left: 100px
 	}
 
 	#WrapperBackground{
 		background-color: #333333;
+		box-shadow: 0px 5px 10px rgba(0,0,0,0.7);
+	}
+
+	.cPClass{
+		
 	}
 
 	body{
