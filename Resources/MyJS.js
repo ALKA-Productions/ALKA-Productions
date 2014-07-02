@@ -26,7 +26,6 @@ function slideShow(){
 
 	setInterval(function(){
 		if ($("#ImageScroller>img.current").next("#ImageScroller>img").length == 0) {
-			console.log("lol")
 			showImg($("#ImageScroller>img:nth-child(1)"));
 			return;	
 		}
