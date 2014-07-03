@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 	$("#ImageScroller ul li img").click(function(){
 		showImg($($(this).attr("target")));
-		})
+	})
 
 	slideShow();
 
@@ -29,6 +29,6 @@ function slideShow(){
 			showImg($("#ImageScroller>img:nth-child(1)"));
 			return;	
 		}
-			showImg($("#ImageScroller>img.current").next("#ImageScroller>img"));
-		}, 5000);
+		showImg($("#ImageScroller>img.current").next("#ImageScroller>img"));
+	}, 5000);
 }
