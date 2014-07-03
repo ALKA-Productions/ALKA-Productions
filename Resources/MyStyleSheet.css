@@ -28,14 +28,10 @@
 		background: black;
 	}
 
-	#WebNav ul li a:hover{
-		background-position: center 100%;
-		padding-bottom: 45px;
-	}
-
-	#WebNav ul li a.current{
-		background-position: center 100%;
-		padding-bottom: 45px;
+	#WebNav ul li a:hover, 
+	#WebNav ul li a.current {
+		background-position: center 100% !important;
+		padding-bottom: 45px !important;
 	}
 
 	#WebNav ul{
@@ -169,7 +165,7 @@
 	}
 
 	#Content ul li p{
-		color: gray;
+		color: white;
 		text-align: left;
 		padding-left: 20px;
 		padding-right: 20px;
@@ -237,8 +233,7 @@
 	}
 
 	#GameBackground{
-		background-image: url("BlackPatternBack.PNG");	
-		margin-right: 
+		background-image: url("BlackPatternBack.PNG");
 	}
 
 	.Button{
@@ -278,7 +273,7 @@
 		margin-right: 280px; 
 		margin-top: 35px; 
 		margin-bottom: 15px;
-		transition: background-image ease-in-out 0.3s;
+		transition: background-image ease-in-out 0.1s;
 	}
 
 	.ButtonGames{
@@ -350,6 +345,55 @@
 		margin-right: 95px;
 		padding-bottom: 10px;
 		color: white;
+	}
+
+	#AboutBackground{
+		background-image: url("BlackPatternBack.PNG");
+	}
+
+	#AboutBackground p{
+		margin-left: 95px;
+		margin-right: 95px;
+		color: white;
+	}
+
+	#AboutBackground h2{
+		color: blue;
+	}
+
+	.ButtonAbout{
+		text-align: center;
+		text-decoration: none;
+		background-image: url("ButtonBack.PNG");
+		color: white;
+		border-radius: 10px;
+		font-size: 25px;
+		padding: 3px;
+		padding-right: 280px;
+		padding-left: 250px;
+		margin-right: 280px; 
+		margin-top: 35px; 
+		margin-bottom: 15px;
+		text-decoration: none; 
+		margin-left: 90px;
+		transition: background-image ease-in 0.3s;
+	}
+
+	.ButtonAbout:hover{
+		text-align: center;
+		text-decoration: none;
+		background-image: url("ButtonBackHover.PNG");
+		color: white;
+		border-radius: 10px;
+		font-size: 25px;
+		padding: 3px;
+		padding-right: 280px;
+		padding-left: 250px;
+		margin-right: 280px; 
+		margin-top: 35px; 
+		margin-bottom: 15px;
+		text-decoration: none; 
+		margin-left: 90px;
 	}
 
 	body{
