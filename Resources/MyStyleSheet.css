@@ -134,7 +134,7 @@
 
 	#FeatureVid{
 		padding: 10px;
-		background-color: black;
+		background-image: url("BlackPatternBack.PNG");
 		border-color: blue;
 		color: blue;
 		margin-bottom: 10px;
@@ -149,7 +149,7 @@
 		margin-bottom: 20px;
 		margin-top: 50px;
 		display: inline-block;
-		background-color: black;
+		background-image: url("BlackPatternBack.PNG");
 		color: blue;
 		width: 350px;
 		height: 270px;
@@ -218,6 +218,14 @@
 		box-shadow: 0px 5px 10px rgba(0,0,0,0.7);
 	}
 
+	#cPClass{
+		
+	}
+
+	#nFClass{
+		 background-image: url("BlackPatternBack.PNG");
+	}
+
 	.Button{
 		margin-left: 15px;
 		text-align: center;
@@ -227,6 +235,26 @@
 		border-radius: 10px;
 		font-size: 25px;
 		padding: 3px;
+	}
+
+	.ButtonGames{
+		text-align: center;
+		text-decoration: none;
+		background-image: url("ButtonBack.PNG");
+		color: white;
+		border-radius: 10px;
+		font-size: 25px;
+		padding: 3px;
+		padding-right: 370px;
+		padding-left: 370px;
+		margin-left: 280px; 
+		margin-right: 280px; 
+		margin-top: 35px; 
+		margin-bottom: 15px;
+	}
+
+	.GamesTitle{
+		font-size: 20px;
 	}
 
 	body{
