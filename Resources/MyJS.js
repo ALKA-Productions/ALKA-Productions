@@ -13,9 +13,9 @@ function showImg(elem)
 	if (elem.hasClass("current")) 
 		return;
 
-	$(".previous").removeClass("previous");
-	$(".current").addClass("previous");
-	$(".current").removeClass("current");
+	$("#ImageScroller .previous").removeClass("previous");
+	$("#ImageScroller .current").addClass("previous");
+	$("#ImageScroller .current").removeClass("current");
 	elem.hide();
 	elem.fadeIn();
 	elem.addClass("current");

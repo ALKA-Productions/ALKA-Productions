@@ -33,6 +33,10 @@
 		padding-bottom: 45px;
 	}
 
+	#WebNav ul li a.current{
+		background-position: center 100%;
+		padding-bottom: 45px;
+	}
 
 	#WebNav ul{
 		width: 900px;
@@ -97,8 +101,8 @@
 	#ImageScroller>img{
 		position: absolute;
 		z-index: 100;
-		width: 778;
-		height: 327;
+		width: 778px;
+		height: 327px;
 	}
 
 	#ImageScroller>img.current{
