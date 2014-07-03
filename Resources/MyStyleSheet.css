@@ -117,6 +117,13 @@
 		background-image: url("BlackPatternBack.PNG");			
 	}
 
+	#ImageScrollerBackground p{
+		padding: 10px;
+		padding-left: 280px;
+		padding-right: 280px;
+		color: white;
+	}
+
 	#Wrapper{
 		text-align: center;
 		/*background-color: #333333;*/
